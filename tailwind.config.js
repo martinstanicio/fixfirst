@@ -1,3 +1,5 @@
+const { theme } = require("tailwindcss/defaultConfig");
+
 module.exports = {
   purge: [
     "./components/**/*.{vue,js}",
@@ -6,4 +8,12 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
   ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["Montserrat", ...theme.fontFamily.sans],
+        script: ["Lobster"],
+      },
+    },
+  },
 };
