@@ -1,14 +1,11 @@
 import VButton from "~/components/VButton.vue";
 
 export default {
-  title: "Example/VButton",
+  title: "VButton",
   component: VButton,
   argTypes: {
-    type: {
-      control: {
-        type: "select",
-        options: ["primary", "secondary", "no-style"],
-      },
+    primary: {
+      control: { type: "boolean" },
     },
     size: {
       control: { type: "select", options: ["small", "medium", "large"] },
@@ -23,10 +20,10 @@ const Template = (args, { argTypes }) => ({
 });
 
 export const Primary = Template.bind({});
-Primary.args = { type: "primary" };
+Primary.args = { primary: true };
 
 export const Secondary = Template.bind({});
-Secondary.args = { type: "secondary" };
+Secondary.args = { primary: false };
 
 export const Large = Template.bind({});
 Large.args = { size: "large" };

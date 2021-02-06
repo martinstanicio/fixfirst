@@ -1,6 +1,10 @@
 <template>
   <button
-    :class="['button', `button--${type}`, `button--${size}`]"
+    :class="[
+      'button',
+      `button--${primary ? 'primary' : 'secondary'}`,
+      `button--${size}`,
+    ]"
     @click="onClick"
   >
     <slot></slot>
@@ -11,11 +15,7 @@
 export default {
   name: "VButton",
   props: {
-    type: {
-      type: String,
-      default: "secondary",
-      validator: v => ["primary", "secondary", "no-style"].includes(v),
-    },
+    primary: { type: Boolean, default: false },
     size: {
       type: String,
       default: "medium",
@@ -35,11 +35,10 @@ export default {
   @apply font-sans font-bold border-0 rounded-3xl cursor-pointer inline-block leading-none;
 }
 .button--primary {
-  @apply bg-green-500 text-white;
+  @apply bg-blue-500 text-white;
 }
 .button--secondary {
-  background-color: transparent;
-  @apply text-green-700 border border-green-700;
+  @apply bg-transparent text-blue-700 border border-blue-700;
 }
 .button--small {
   @apply text-xs px-4 py-3;
