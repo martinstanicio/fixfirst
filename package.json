@@ -1,6 +1,6 @@
 {
-  "name": "nuxtjs-tailwindcss-storybook",
-  "description": "Vue project template with a smooth NuxtJS, TailwindCSS and Storybook integration.",
+  "name": "landoff",
+  "description": "Your landing page, taking off.",
   "version": "1.0.0",
   "private": true,
   "author": "Martín Stanicio",
