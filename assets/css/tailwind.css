@@ -33,4 +33,10 @@
   html {
     @apply font-sans;
   }
+
+  *,
+  *::before,
+  *::after {
+    @apply box-border;
+  }
 }
