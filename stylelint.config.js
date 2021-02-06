@@ -5,6 +5,7 @@ module.exports = {
     "stylelint-order",
   ],
   rules: {
+    "rule-empty-line-before": "always",
     "at-rule-no-unknown": [
       true,
       {
