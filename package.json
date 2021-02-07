@@ -16,7 +16,7 @@
     "lint": "yarn lint:js && yarn lint:style",
     "lint:inspect": "yarn lint:js:inspect && yarn lint:style:inspect",
     "test": "jest",
-    "sb": "nuxt-storybook"
+    "sb": "nuxt-storybook -s static"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint",
