@@ -5,7 +5,12 @@ module.exports = {
     "stylelint-order",
   ],
   rules: {
-    "rule-empty-line-before": "always",
+    "rule-empty-line-before": [
+      "always",
+      {
+        except: ["first-nested"],
+      },
+    ],
     "at-rule-no-unknown": [
       true,
       {
