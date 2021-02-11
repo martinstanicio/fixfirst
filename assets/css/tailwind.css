@@ -31,7 +31,7 @@
   }
 
   html {
-    @apply font-sans;
+    @apply font-sans text-gray-700;
   }
 
   *,
