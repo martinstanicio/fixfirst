@@ -4,5 +4,6 @@
   >
     <VLogo />
     <VHeader class="lg:px-16" />
+    <VFeatures class="lg:px-6" />
   </div>
 </template>
