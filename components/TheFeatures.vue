@@ -36,7 +36,7 @@
 import { ZapIcon, SmartphoneIcon, PieChartIcon } from "vue-feather-icons";
 
 export default {
-  name: "VFeatures",
+  name: "TheFeatures",
   components: { ZapIcon, SmartphoneIcon, PieChartIcon },
 };
 </script>

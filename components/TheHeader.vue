@@ -22,6 +22,6 @@
 
 <script>
 export default {
-  name: "VHeader",
+  name: "TheHeader",
 };
 </script>
