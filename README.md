@@ -24,9 +24,6 @@ $ yarn lint:inspect
 # fix linting errors and warnings
 $ yarn lint
 
-# run tests
-$ yarn test
-
 # launch storybook (default port: 3003)
 $ yarn sb
 ```

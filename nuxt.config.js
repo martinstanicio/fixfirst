@@ -18,5 +18,4 @@ export default {
     "@nuxtjs/eslint-module",
     "@nuxtjs/stylelint-module",
   ],
-  modules: ["@nuxtjs/axios"],
 };
