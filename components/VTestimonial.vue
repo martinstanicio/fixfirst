@@ -30,7 +30,7 @@ export default {
 
 .testimonial__quote::before,
 .testimonial__quote::after {
-  @apply font-script text-2xl text-blue-900;
+  @apply font-script text-2xl text-accent-900;
 }
 
 .testimonial__quote::before {
@@ -42,7 +42,7 @@ export default {
 }
 
 .testimonial__author {
-  @apply text-base text-blue-500 font-bold mt-2;
+  @apply text-base text-accent-500 font-bold mt-2;
 }
 
 @screen md {

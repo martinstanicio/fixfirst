@@ -1,4 +1,5 @@
 const { theme } = require("tailwindcss/defaultConfig");
+const accent = theme.colors.blue;
 
 module.exports = {
   purge: [
@@ -10,6 +11,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: { accent },
       fontFamily: {
         sans: ["Montserrat", ...theme.fontFamily.sans],
         script: ["Lobster"],

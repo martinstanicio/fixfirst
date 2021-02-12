@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="bg-blue-900 text-blue-50 flex flex-col justify-between items-center gap-8 p-12 lg:flex-row"
+    class="bg-accent-900 text-accent-50 flex flex-col justify-between items-center gap-8 p-12 lg:flex-row"
   >
     <VLogo inverted />
     <ul

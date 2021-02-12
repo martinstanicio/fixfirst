@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-50 min-h-screen">
+  <div class="bg-accent-50 min-h-screen">
     <div
       class="flex flex-col gap-12 p-6 pb-10 md:p-8 md:pb-12 lg:px-10 md:gap-16"
     >

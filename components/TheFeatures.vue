@@ -47,7 +47,7 @@ export default {
 }
 
 .card__icon {
-  @apply text-blue-500;
+  @apply text-accent-500;
 }
 
 .card__title {

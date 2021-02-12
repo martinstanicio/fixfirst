@@ -1,11 +1,11 @@
 <template>
   <header class="grid grid-cols-1 gap-8 min-h-full lg:grid-cols-2 lg:gap-14">
-    <img src="~/assets/svg/landing_page.svg" alt="Landing Page" />
+    <TheIllustration />
     <div
       class="flex flex-col justify-center gap-12 m-auto max-w-lg w-full text-center lg:text-left lg:items-start"
     >
       <div>
-        <h2 class="text-blue-500 text-4xl font-bold mb-2">
+        <h2 class="text-accent-500 text-4xl font-bold mb-2">
           Your landing page, taking off
         </h2>
         <p class="leading-relaxed">

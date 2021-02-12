@@ -29,3 +29,6 @@ $ yarn lint
 # launch storybook (default port: 3003)
 $ yarn sb
 ```
+
+You can change the color scheme by changing `accent` in `tailwind.config.js`.
+Required values are `50`, `500`, `700` and `900`.

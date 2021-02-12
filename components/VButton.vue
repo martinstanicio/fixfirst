@@ -36,11 +36,11 @@ export default {
 }
 
 .button--primary {
-  @apply bg-blue-500 text-white;
+  @apply bg-accent-500 text-white;
 }
 
 .button--secondary {
-  @apply bg-transparent text-blue-700 border border-blue-700;
+  @apply bg-transparent text-accent-700 border border-accent-700;
 }
 
 .button--small {
