@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center lg:justify-start">
+  <div class="flex justify-center items-center xl:justify-start">
     <h1
       class="font-script text-5xl"
       :class="inverted ? 'text-accent-50' : 'text-accent-900'"

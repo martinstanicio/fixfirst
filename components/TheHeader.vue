@@ -1,14 +1,14 @@
 <template>
-  <header class="grid grid-cols-1 gap-8 min-h-full lg:grid-cols-2 lg:gap-14">
-    <TheIllustration />
+  <header class="flex flex-col gap-8 min-h-full xl:flex-row xl:gap-16">
+    <TheIllustration class="max-w-full flex-1 m-auto" />
     <div
-      class="flex flex-col justify-center gap-12 m-auto max-w-lg w-full text-center lg:text-left lg:items-start"
+      class="flex flex-col justify-center gap-12 m-auto text-center xl:text-left xl:items-start flex-1"
     >
       <div>
         <h2 class="text-accent-500 text-4xl font-bold mb-2">
           Your landing page, taking off
         </h2>
-        <p class="leading-relaxed">
+        <p class="leading-relaxed max-w-lg m-auto">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut,
           deserunt sequi. Hic nihil distinctio minima, ratione et nesciunt,
           alias voluptatum, dicta quia possimus blanditiis aperiam quos vero?
